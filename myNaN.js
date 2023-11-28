@@ -12,7 +12,7 @@ console.log(num);
 
 const boolean = Boolean(num);
 console.log(boolean);
- 
+
 const num2=0;
 const boolean2 = Boolean(num2);
 console.log(boolean2);
@@ -29,6 +29,16 @@ const numberValue2= 10;
 const output = booleanValue2 - numberValue2;
 console.log(output);
 
+
+
+let price = 22;
+if (price !== 23) {
+    console.log('why not 23?', price)
+    price++
+}
+if (price == 23) {
+    console.log('yes 23', price)
+}
 
 
 

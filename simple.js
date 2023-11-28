@@ -112,7 +112,100 @@
 // }
 
 
-const inputYear='1991'
-console.log(Number(inputYear), inputYear);
-console.log(Number(inputYear)+18);
+// const inputYear='1991'  
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear)+18);
+
+
+
+// let LCU = ["kaithi","vikram","leo","rrr"]
+
+// let movie1="kaithi"
+// let movie2="vikram"
+// let movie3="leo"
+// let movie4="rrr"
+
+// const movie_name=prompt("enter the movie name")
+
+// if (LCU.includes(LCUMovie)) {
+//     console.log(LCUMovie,"is in the LCU.");
+//   } else {
+//     console.log(LCUMovie,"is not in the LCU.");
+//   }
+
+
+
+// const hasDriversLicence = true;
+// const hasGoodVersion = false;
+
+// console.log(hasDriversLicence && hasGoodVersion);
+// console.log(hasDriversLicence || hasGoodVersion);
+// console.log(!hasDriversLicence);
+
+// if(hasDriversLicence && hasGoodVersion){
+//   console.log('sara is able to drive');
+// }
+//   else{
+//     console.log('someone else should drive...');
+// }
+// const isTired = true;
+// console.log(hasDriversLicence && hasGoodVersion && isTired);
+
+// if(hasDriversLicence && hasGoodVersion && isTired){
+//   console.log('sarah is able to drive');
+// }else{
+//   console.log('someone else should drive...');
+// }
+
+// a=10;
+// b=10;
+// c=a+b;
+// console.log(c);
+// let num1=10;
+// let num2=20;
+// function addition(a,b){
+//     return a+b
+// }
+// console.log(addition(num1,num2));
+
+//this is a addition
+let num3 = 10;
+let num4 = 20;
+function subtraction(a, b) {
+    return a - b
+}
+console.log(subtraction(num3, num4));
+
+//this is a subraction
+let num5 = 10;
+let num6 = 20;
+function multiplication(a, b) {
+    return a * b
+}
+console.log(multiplication(num5, num6));
+
+//this is a multiplication
+let num7 = 20;
+let num8 = 10;
+function division(a, b) {
+    return a / b
+}
+console.log(division(num7, num8));
+
+//this is a division
+let num9 = 10;
+let num10 = 20;
+function modulas(a, b) {
+    return a % b
+}
+console.log(modulas(num9, num10));
+
+
+//this is a power 
+let num11 = 10;
+let num12 = 20;
+function power(a, b) {
+    return a ** b
+}
+console.log(power(num11, num12));
 
