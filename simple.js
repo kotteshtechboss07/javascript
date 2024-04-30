@@ -169,43 +169,47 @@
 // console.log(addition(num1,num2));
 
 //this is a addition
-let num3 = 10;
-let num4 = 20;
-function subtraction(a, b) {
-    return a - b
-}
-console.log(subtraction(num3, num4));
+// let num3 = 10;
+// let num4 = 20;
+// function subtraction(a, b) {
+//     return a - b
+// }
+// console.log(subtraction(num3, num4));
 
-//this is a subraction
-let num5 = 10;
-let num6 = 20;
-function multiplication(a, b) {
-    return a * b
-}
-console.log(multiplication(num5, num6));
+// //this is a subraction
+// let num5 = 10;
+// let num6 = 20;
+// function multiplication(a, b) {
+//     return a * b
+// }
+// console.log(multiplication(num5, num6));
 
-//this is a multiplication
-let num7 = 20;
-let num8 = 10;
-function division(a, b) {
-    return a / b
-}
-console.log(division(num7, num8));
+// //this is a multiplication
+// let num7 = 20;
+// let num8 = 10;
+// function division(a, b) {
+//     return a / b
+// }
+// console.log(division(num7, num8));
 
-//this is a division
-let num9 = 10;
-let num10 = 20;
-function modulas(a, b) {
-    return a % b
-}
-console.log(modulas(num9, num10));
+// //this is a division
+// let num9 = 10;
+// let num10 = 20;
+// function modulas(a, b) {
+//     return a % b
+// }
+// console.log(modulas(num9, num10));
 
 
 //this is a power 
-let num11 = 10;
-let num12 = 20;
-function power(a, b) {
-    return a ** b
-}
-console.log(power(num11, num12));
+// let num11 = 10; 
+// let num12 = 20;
+// function power(a, b) {
+//     return a ** b
+// }
+// console.log(power(num11, num12));
 
+var aa = 125029734092369566n;
+var bb = 2n;
+var sum = aa + bb;
+console.log(sum);

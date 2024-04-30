@@ -8,7 +8,7 @@ console.log(String(23), 23);
 
 // coersion
 console.log('i a' + 23 + 'years old');
-console.log('23'-'10'-3);
+console.log('23'-'10'-3);             
 console.log('23'+'10'+3);
 console.log('23'/'2');
 console.log('23');
