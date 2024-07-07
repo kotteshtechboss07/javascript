@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: red;
+            padding: 20px;
+            border-radius: 8px;
+            width: 50%;
+            max-width: 600px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .bmi-results {
+            margin-top: 20px;
+        }
+
+        .bmi-results p {
+            margin: 10px 0;
+        }
+
+        .bmi-results p span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Comparison</h1>
+        <div class="bmi-results">
+            <p>Mark's BMI: <span id="bmiMark"></span></p>
+            <p>John's BMI: <span id="bmiJohn"></span></p>
+            <p>Mark has a higher BMI than John: <span id="higherBMI"></span></p>
+        </div>
+    </div>
+    <script>
+        // Fetch the DOM elements
+const bmiMarkElement = document.getElementById('bmiMark');
+const bmiJohnElement = document.getElementById('bmiJohn');
+const higherBMIElement = document.getElementById('higherBMI');
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+const BMIMark = calculateBMI(massMark, heightMark);
+const BMIJohn = calculateBMI(massJohn, heightJohn);
+bmiMarkElement.textContent = BMIMark;
+bmiJohnElement.textContent = BMIJohn;
+higherBMIElement.textContent = BMIMark > BMIJohn ? 'Yes' : 'No';
+function calculateBMI(mass, height) {
+    return mass / (height ** 2);
+}
+    </script>
+</body>
+</html>

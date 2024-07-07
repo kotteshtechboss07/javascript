@@ -1,13 +1,13 @@
-// // first challenge 
-// const massMark = 78;
-// const heightMark = 1.69;
-// const massJohn = 92;
-// const heightJohn = 1.95;
+// first challenge 
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
 
-// const BMIMark = massMark / heightMark ** 2;
-// const BMIJohn = massJohn / (heightJohn * heightJohn)
-// const markHigherBMI = BMIMark > BMIJohn;
-// console.log(BMIMark, BMIJohn, markHigherBMI);
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn)
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(BMIMark, BMIJohn, markHigherBMI);
 
 
 // second challenge
@@ -110,10 +110,10 @@
 
 // third  fundamental in coding callenge two
 
-const calcTip = function (bill){
-  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill *0.2;
-}
-const bill = [125, 555, 44];
-const tips = [calcTip(bill[0]), calcTip(bill[1]), calcTip(bill[2])];
-const total = [bill[0] + tips[0], bill[1] + tips[1], bill[2], tips[2]];
-console.log(bill, tips, total)
+// const calcTip = function (bill){
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill *0.2;
+// }
+// const bill = [125, 555, 44];
+// const tips = [calcTip(bill[0]), calcTip(bill[1]), calcTip(bill[2])];
+// const total = [bill[0] + tips[0], bill[1] + tips[1], bill[2], tips[2]];
+// console.log(bill, tips, total)
